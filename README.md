@@ -27,14 +27,6 @@ We employ **BioBERT**, a transformer-based biomedical model, and enhance it with
 
 ---
 
-## Repository Structure
-ner-ade-csiro
-|- README.md              # Project documentation
-|- ner_cadec.ipynb        # Jupyter Notebook with code implementation
-|- models/                # Saved fine-tuned models
-
----
-
 ### The notebook includes:
 - Data preprocessing & tokenization
 - Model training (BioBERT + CrossEntropy / Focal Loss)
