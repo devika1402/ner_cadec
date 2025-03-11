@@ -28,16 +28,26 @@ We employ **BioBERT**, a transformer-based biomedical model, and enhance it with
 ---
 
 ## Repository Structure
-📦 ner-ade-csiro
-│– 📜 README.md              # Project documentation
-│– 📜 ner_cadec.ipynb        # Jupyter Notebook with code implementation
-│– 📂 models/                # Saved fine-tuned models
+ner-ade-csiro
+├── README.md              # Project documentation
+├── ner_cadec.ipynb        # Jupyter Notebook with code implementation
+└── models/                # Saved fine-tuned models
 
 ---
-The notebook includes:
-	•	Data preprocessing & tokenization
-	•	Model training (BioBERT + CrossEntropy / Focal Loss)
-	•	Performance evaluation
-	•	Visualization of results
 
- 
+### The notebook includes:
+- Data preprocessing & tokenization
+- Model training (BioBERT + CrossEntropy / Focal Loss)
+- Performance evaluation
+- Visualization of results
+
+---
+
+## Model Performance
+
+### Standard BioBERT Model (Cross-Entropy Loss)
+- High overall accuracy but struggles with rare entities.
+
+### BioBERT + Focal Loss
+- Improves recognition of rare entities (e.g., diseases, symptoms, ADRs).
+- Slight increase in accuracy and F1-score with better class balance.
