@@ -8,7 +8,7 @@ We employ **BioBERT**, a transformer-based biomedical model, and enhance it with
 
 ---
 
-## Key Features
+## Features
 - Transformer-based NER model for biomedical text classification.
 - Fine-tuned BioBERT model to extract medical entities from patient-reported drug reviews.
 - Focal Loss implementation to improve recognition of underrepresented entities.
@@ -29,9 +29,9 @@ We employ **BioBERT**, a transformer-based biomedical model, and enhance it with
 
 ## Repository Structure
 ner-ade-csiro
-├── README.md              # Project documentation
-├── ner_cadec.ipynb        # Jupyter Notebook with code implementation
-└── models/                # Saved fine-tuned models
+|- README.md              # Project documentation
+|- ner_cadec.ipynb        # Jupyter Notebook with code implementation
+|- models/                # Saved fine-tuned models
 
 ---
 
